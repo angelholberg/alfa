@@ -13,9 +13,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-# Ignorar otros archivos innecesarios 
-doc/
-*.swp
-*~
+.sass-cache/
+config/database.yml
+db/schema.rb
+.rvmrc
+.rspec
 .project
 .DS_Store
+.idea
+*.swp
